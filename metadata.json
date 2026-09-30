@@ -1,0 +1,6 @@
+{
+  "name": "LumaTask",
+  "description": "Liquid glass productivity app with daily tasks, recurring habits, calendar, and streak tracker.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer glass squircle card -->
+    <path
+        android:pathData="M34,26 C28,26 26,28 26,34 L26,74 C26,80 28,82 34,82 L74,82 C80,82 82,80 82,74 L82,34 C82,28 80,26 74,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="26"
+                android:endX="82"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#33FFFFFF" />
+                <item android:offset="0.6" android:color="#14FFFFFF" />
+                <item android:offset="1.0" android:color="#08FFFFFF" />
+            </gradient>
+        </aapt:attr>
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="26"
+                android:startY="26"
+                android:endX="82"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#80FFFFFF" />
+                <item android:offset="0.5" android:color="#30818CF8" />
+                <item android:offset="1.0" android:color="#15FFFFFF" />
+            </gradient>
+        </aapt:attr>
+        android:strokeWidth="1.2"
+    </path>
+
+    <!-- Frosted glass accent highlight dot -->
+    <path
+        android:pathData="M38,36 A3,3 0 1,0 38,42 A3,3 0 1,0 38,36 Z"
+        android:fillColor="#818CF8" />
+
+    <!-- Frosted glass accent small line -->
+    <path
+        android:pathData="M46,39 L68,39"
+        android:strokeColor="#40FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+    <!-- Glowing Checkmark Circle Background -->
+    <path
+        android:pathData="M54,46 A16,16 0 1,0 54,78 A16,16 0 1,0 54,46 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="46"
+                android:endX="70"
+                android:endY="78"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#4F46E5" />
+                <item android:offset="1.0" android:color="#7C3AED" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Checkmark Path -->
+    <path
+        android:pathData="M46,62 L51,67 L63,55"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>
